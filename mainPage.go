@@ -12,7 +12,7 @@ func textHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	// Open the JSON file
-	file, err := os.Open("/app/homePage.json")
+	file, err := os.Open("./homePage.json")
 	if err != nil {
 		// Handle error, send a 500 status and log the error
 		http.Error(w, "Could not open JSON file", http.StatusInternalServerError)
