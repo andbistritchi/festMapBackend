@@ -23,8 +23,8 @@ FROM golang:1.23
 WORKDIR /root/
 
 # Copy the Pre-built binary file from the previous stage
-COPY homePage.json /app/homePage.json
 COPY --from=builder /app/backend .
+COPY homePage.json .
 
 # Expose port 8080 to the outside world
 EXPOSE 8080

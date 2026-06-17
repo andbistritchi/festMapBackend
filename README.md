@@ -6,8 +6,8 @@ Go backend for FestMap. It serves JSON content for the frontend and can optional
 
 - Language: Go
 - Main HTTP port: 8080
-- Current API endpoint: `/api/text`
-- Primary data source: `homePage.json`
+- Current API endpoint: `/api/text` (serves `homePage.json`)
+- Data file: `homePage.json` (read from working directory)
 
 ## SDD Workflow
 
@@ -32,8 +32,8 @@ Implementation starts only after the spec entry exists and is approved.
 ## Project Structure
 
 - `main.go` - server bootstrap, routing setup, optional tracer initialization
-- `mainPage.go` - handler for `/api/text`, reads `homePage.json`
-- `homePage.json` - local data payload for API response
+- `mainPage.go` - handler for `/api/text`, reads and serves `homePage.json`
+- `homePage.json` - data file containing venue and map configuration (served by `/api/text`)
 - `jaeger.go` - OpenTelemetry/Jaeger setup (currently not enabled in `main.go`)
 - `dataBase.go` - database-related code (currently not enabled in `main.go`)
 - `docker-compose.yml` - backend and Jaeger stack

@@ -2,712 +2,1374 @@
   "title1": "Welcome to MyWeihnachtsMarkt!",
   "title2": "Eat, Trink, Rate, Repeat",
   "title3": "From Hamburg with love",
-  "markerBig": [
+  "startPoint": [
     {
-      "latitude": 53.55083,
-      "longitude": 9.993,
-      "iconSize": [150, 150],
-      "popupContent": "Point 1",
-      "iconUrl": "assets/01-Parallelogramm.svg"
+      "latitude": 53.5508611,
+      "longitude": 9.993
     }
   ],
-  "markers": [
-    { "Lager_id": 2,
-      "Lager_name": "Maronen",
-      "longitude": 9,
-      "latitude": 6,
-      "iconSize": [50, 50],
-      "popupContent": "<b>\"Maronen\"</b></br><b>id:2</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    { "Lager_id": 3,
-      "Lager_name": "Glasbläser",
-      "longitude": 4,
-      "latitude": 6,
-      "iconSize": [50, 50],
-      "popupContent": "<b>\"Glasbläser\"</b></br><b>id:3</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 4,
-      "Lager_name": "Schmied",
-      "longitude": 11,
-      "latitude": 3,
-      "iconSize": [100, 200],
-      "popupContent": "<b>\"Schmied\"</b></br><b>id:4</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 5,
-      "Lager_name": "Puppenmacherin",
-      "longitude": 5,
-      "latitude": 7,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Puppenmacherin\"</b></br><b>id:5</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 6,
-      "Lager_name": "Wind Art",
-      "longitude": 18,
-      "latitude": 7,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Wind Art\"</b></br><b>id:6</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 7,
-      "Lager_name": "Flockenhaus",
-      "longitude": 5,
-      "latitude": 6,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Flockenhaus\"</b></br><b>id:7</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 8,
-      "Lager_name": "Belgische Pralinen",
-      "longitude": 17,
-      "latitude": 10,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Belgische Pralinen\"</b></br><b>id:8</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 10,
-      "Lager_name": "Lederwaren",
-      "longitude": 15,
-      "latitude": 3,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Lederwaren\"</b></br><b>id:10</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 11,
-      "Lager_name": "Hanse-Spieß",
-      "longitude": 2,
-      "latitude": 10,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Hanse-Spieß\"</b></br><b>id:11</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gastronomie"
-    },
-    {
-      "Lager_id": 12,
-      "Lager_name": "Perlkönig",
-      "longitude": 7,
-      "latitude": 1,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Perlkönig\"</b></br><b>id:12</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 13,
-      "Lager_name": "Tee & Gewürze",
-      "longitude": 16,
-      "latitude": 1,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Tee & Gewürze\"</b></br><b>id:13</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    { "Lager_id": 14,
-      "Lager_name": "Almgourmet",
-      "longitude": 6,
-      "latitude": 12,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Almgourmet\"</b></br><b>id:14</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    { "Lager_id": 15,
-      "Lager_name": "Lambertz-Gebäck",
-      "longitude": 15,
-      "latitude": 12,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Lambertz-Gebäck\"</b></br><b>id:15</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 16,
-      "Lager_name": "Lángos",
-      "longitude": 1,
-      "latitude": 6,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Lángos\"</b></br><b>id:16</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gastronomie"
-    },
-    {
-      "Lager_id": 17,
-      "Lager_name": "Schmalzbäckerei",
-      "longitude": 19,
-      "latitude": 9,
-      "iconSize": [100, 200],
-      "popupContent": "<b>\"Schmalzbäckerei\"</b></br><b>id:17</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 18,
-      "Lager_name": "Trockenfrüchte",
-      "longitude": 17,
-      "latitude": 1,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Trockenfrüchte\"</b></br><b>id:18</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 19,
-      "Lager_name": "Kerzenhaus",
-      "longitude": 14,
-      "latitude": 6,
-      "iconSize": [200, 100],
-      "popupContent": "<b>\"Kerzenhaus\"</b></br><b>id:19</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 20,
-      "Lager_name": "Schoko-Früchte",
-      "longitude": 15,
-      "latitude": 10,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Schoko-Früchte\"</b></br><b>id:20</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 21,
-      "Lager_name": "quasiolka",
-      "longitude": 8,
-      "latitude": 3,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"quasiolka\"</b></br><b>id:21</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 22,
-      "Lager_name": "Rêve de Fromage",
-      "longitude": 5,
-      "latitude": 10,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Rêve de Fromage\"</b></br><b>id:22</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 23,
-      "Lager_name": "Nusskönigin",
-      "longitude": 18,
-      "latitude": 10,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Nusskönigin\"</b></br><b>id:23</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 24,
-      "Lager_name": "Senfmühle",
-      "longitude": 4,
-      "latitude": 10,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Senfmühle\"</b></br><b>id:24</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 25,
-      "Lager_name": "Bonbonmacher",
-      "longitude": 16,
-      "latitude": 10,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Bonbonmacher\"</b></br><b>id:25</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 26,
-      "Lager_name": "Pfaffenglück",
-      "longitude": 6,
-      "latitude": 4,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Pfaffenglück\"</b></br><b>id:26</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gastronomie"
-    },
-    { "Lager_id": 27,
-      "Lager_name": "Appenzeller Käsehütte",
-      "longitude": 8,
-      "latitude": 12,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Appenzeller Käsehütte\"</b></br><b>id:27</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gastronomie"
-    },
-    {
-      "Lager_id": 28,
-      "Lager_name": "Lavendelhaus",
-      "longitude": 18,
-      "latitude": 1,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Lavendelhaus\"</b></br><b>id:28</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 29,
-      "Lager_name": "Hamburger Fotokunst",
-      "longitude": 16,
-      "latitude": 3,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Hamburger Fotokunst\"</b></br><b>id:29</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    { "Lager_id": 30,
-      "Lager_name": "Petit Marche",
-      "longitude": 5,
-      "latitude": 12,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Petit Marche\"</b></br><b>id:30</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    { "Lager_id": 31,
-      "Lager_name": "Kartoffelpuffer & Co.",
-      "longitude": 14,
-      "latitude": 12,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Kartoffelpuffer & Co.\"</b></br><b>id:31</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 32,
-      "Lager_name": "Elbschlösschen",
-      "longitude": 4,
-      "latitude": 2,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Elbschlösschen\"</b></br><b>id:32</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gluhwein"
-    },
-    {
-      "Lager_id": 33,
-      "Lager_name": "La Crèperie",
-      "longitude": 6,
-      "latitude": 10,
-      "iconSize": [100, 200],
-      "popupContent": "<b>\"La Crèperie\"</b></br><b>id:33</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gastronomie"
-    },
-    {
-      "Lager_id": 34,
-      "Lager_name": "Stollen",
-      "longitude": 3,
-      "latitude": 4,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Stollen\"</b></br><b>id:34</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 35,
-      "Lager_name": "Dresdner Handbrot",
-      "longitude": 14,
-      "latitude": 9,
-      "iconSize": [100, 200],
-      "popupContent": "<b>\"Dresdner Handbrot\"</b></br><b>id:35</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gastronomie"
-    },
-    {
-      "Lager_id": 36,
-      "Lager_name": "Holzbildhauer",
-      "longitude": 19,
-      "latitude": 1,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Holzbildhauer\"</b></br><b>id:36</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 37,
-      "Lager_name": "Flammlachs",
-      "longitude": 19,
-      "latitude": 3,
-      "iconSize": [100, 200],
-      "popupContent": "<b>\"Flammlachs\"</b></br><b>id:37</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gastronomie"
-    },
-    { "Lager_id": 38,
-      "Lager_name": "Rentierhütte",
-      "longitude": 10,
-      "latitude": 12,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Rentierhütte\"</b></br><b>id:38</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gluhwein"
-    },
-    {
-      "Lager_id": 39,
-      "Lager_name": "Filz & Wolle",
-      "longitude": 17,
-      "latitude": 6,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Filz & Wolle\"</b></br><b>id:39</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 40,
-      "Lager_name": "Feuerzangenbowle",
-      "longitude": 11,
-      "latitude": 7,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Feuerzangenbowle\"</b></br><b>id:40</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gluhwein"
-    },
-    {
-      "Lager_id": 41,
-      "Lager_name": "Schlüters Alpenwelt",
-      "longitude": 11,
-      "latitude": 9,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Schlüters Alpenwelt\"</b></br><b>id:41</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gastronomie"
-    },
-    {
-      "Lager_id": 42,
-      "Lager_name": "Erzgebirge",
-      "longitude": 16,
-      "latitude": 9,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Erzgebirge\"</b></br><b>id:42</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 44,
-      "Lager_name": "Geschenkdose",
-      "longitude": 10,
-      "latitude": 1,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Geschenkdose\"</b></br><b>id:44</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 45,
-      "Lager_name": "Soapstories",
-      "longitude": 8,
-      "latitude": 4,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Soapstories\"</b></br><b>id:45</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 46,
-      "Lager_name": "Lichthäuser",
-      "longitude": 10,
-      "latitude": 4,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Lichthäuser\"</b></br><b>id:46</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 47,
-      "Lager_name": "Käthe Wohlfahrt",
-      "longitude": 21,
-      "latitude": 6,
-      "iconSize": [100, 300],
-      "popupContent": "<b>\"Käthe Wohlfahrt\"</b></br><b>id:47</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 48,
-      "Lager_name": "Steinkauz",
-      "longitude": 8,
-      "latitude": 1,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Steinkauz\"</b></br><b>id:48</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 49,
-      "Lager_name": "Original Thüringer",
-      "longitude": 20,
-      "latitude": 12,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Original Thüringer\"</b></br><b>id:49</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gastronomie"
-    },
-    {
-      "Lager_id": 50,
-      "Lager_name": "Bürsten & Besen",
-      "longitude": 18,
-      "latitude": 4,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Bürsten & Besen\"</b></br><b>id:50</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 51,
-      "Lager_name": "Münzpräger",
-      "longitude": 6,
-      "latitude": 1,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Münzpräger\"</b></br><b>id:51</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 52,
-      "Lager_name": "Krippenschnitzerei",
-      "longitude": 18,
-      "latitude": 6,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Krippenschnitzerei\"</b></br><b>id:52</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 53,
-      "Lager_name": "Goldschmiede",
-      "longitude": 9,
-      "latitude": 1,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Goldschmiede\"</b></br><b>id:53</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 54,
-      "Lager_name": "Schreibstube",
-      "longitude": 18,
-      "latitude": 3,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Schreibstube\"</b></br><b>id:54</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    { "Lager_id": 55,
-      "Lager_name": "Bienenhaus",
-      "longitude": 3,
-      "latitude": 12,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Bienenhaus\"</b></br><b>id:55</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 56,
-      "Lager_name": "Rentierfelle",
-      "longitude": 3,
-      "latitude": 6,
-      "iconSize": [100, 200],
-      "popupContent": "<b>\"Rentierfelle\"</b></br><b>id:56</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 57,
-      "Lager_name": "Speicherhaus",
-      "longitude": 1,
-      "latitude": 12,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Speicherhaus\"</b></br><b>id:57</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gluhwein"
-    },
-    {
-      "Lager_id": 58,
-      "Lager_name": "Anleger",
-      "longitude": 21,
-      "latitude": 4,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Anleger\"</b></br><b>id:58</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gluhwein"
-    },
-    {
-      "Lager_id": 59,
-      "Lager_name": "Bratwurstgrill",
-      "longitude": 14,
-      "latitude": 3,
-      "iconSize": [100, 200],
-      "popupContent": "<b>\"Bratwurstgrill\"</b></br><b>id:59</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg",
-      "atractionType": "gastronomie"
-    },
-    {
-      "Lager_id": 60,
-      "Lager_name": "Olivenholz-Handwerk",
-      "longitude": 19,
-      "latitude": 6,
-      "iconSize": [100, 200],
-      "popupContent": "<b>\"Olivenholz-Handwerk\"</b></br><b>id:60</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 61,
-      "Lager_name": "Wahrsagen",
-      "longitude": 8,
-      "latitude": 6,
-      "iconSize": [50, 50],
-      "popupContent": "<b>\"Wahrsagen\"</b></br><b>id:61</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 62,
-      "Lager_name": "Neptunsgeschmeide",
-      "longitude": 15,
-      "latitude": 4,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Neptunsgeschmeide\"</b></br><b>id:62</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 63,
-      "Lager_name": "Silberschmiede",
-      "longitude": 7,
-      "latitude": 3,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Silberschmiede\"</b></br><b>id:63</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    { "Lager_id": 64,
-      "Lager_name": "Marzipan &",
-      "longitude": 18,
-      "latitude": 12,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Marzipan &\"</b></br><b>id:64</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 65,
-      "Lager_name": "Schneeweißchen &",
-      "longitude": 18,
-      "latitude": 9,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Schneeweißchen &\"</b></br><b>id:65</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 66,
-      "Lager_name": "Fischerhemden-Uwe",
-      "longitude": 15,
-      "latitude": 1,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Fischerhemden-Uwe\"</b></br><b>id:66</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 67,
-      "Lager_name": "Oldtimerkarussell",
-      "longitude": 8,
-      "latitude": 8,
-      "iconSize": [200, 200],
-      "popupContent": "<b>\"Oldtimerkarussell\"</b></br><b>id:67</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 68,
-      "Lager_name": "Japanisches Teehaus",
-      "longitude": 17,
-      "latitude": 3,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Japanisches Teehaus\"</b></br><b>id:68</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 69,
-      "Lager_name": "Unicef",
-      "longitude": 13,
-      "latitude": 1,
-      "iconSize": [50, 50],
-      "popupContent": "<b>\"Unicef\"</b></br><b>id:69</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 70,
-      "Lager_name": "My 3D Modell",
-      "longitude": 4,
-      "latitude": 9,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"My 3D Modell\"</b></br><b>id:70</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 71,
-      "Lager_name": "Druckerey",
-      "longitude": 17,
-      "latitude": 4,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Druckerey\"</b></br><b>id:71</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 72,
-      "Lager_name": "Ideenstube",
-      "longitude": 6,
-      "latitude": 6,
-      "iconSize": [100, 200],
-      "popupContent": "<b>\"Ideenstube\"</b></br><b>id:72</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 73,
-      "Lager_name": "Wildwerk",
-      "longitude": 16,
-      "latitude": 4,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Wildwerk\"</b></br><b>id:73</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 74,
-      "Lager_name": "Spiel & Kunst",
-      "longitude": 4,
-      "latitude": 7,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Spiel & Kunst\"</b></br><b>id:74</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 75,
-      "Lager_name": "Hüte & Mützen",
-      "longitude": 2,
-      "latitude": 4,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Hüte & Mützen\"</b></br><b>id:75</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 76,
-      "Lager_name": "Villeroy & Boch",
-      "longitude": 17,
-      "latitude": 7,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Villeroy & Boch\"</b></br><b>id:76</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 77,
-      "Lager_name": "Holzspielzeug",
-      "longitude": 3,
-      "latitude": 10,
-      "iconSize": [100, 200],
-      "popupContent": "<b>\"Holzspielzeug\"</b></br><b>id:77</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 78,
-      "Lager_name": "Perlsacktiere",
-      "longitude": 5,
-      "latitude": 9,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Perlsacktiere\"</b></br><b>id:78</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    {
-      "Lager_id": 79,
-      "Lager_name": "TSIPI LEV",
-      "longitude": 9,
-      "latitude": 3,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"TSIPI LEV\"</b></br><b>id:79</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
-    },
-    { "Lager_id": 80,
-      "Lager_name": "Schlesische Spezialitäten",
-      "longitude": 7,
-      "latitude": 12,
-      "iconSize": [100, 100],
-      "popupContent": "<b>\"Schlesische Spezialitäten\"</b></br><b>id:80</b>",
-      "iconUrl": "assets/map-marker-svgrepo-com.svg"
+  "MarktData": [
+    {
+      "markerBig": [
+        {
+          "Lager_id": "am Rathaus",
+          "latitude": 53.5508611,
+          "longitude": 9.993,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "am Rathaus",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ],
+      "topLeft": [
+        {
+          "latitude": 53.5503,
+          "longitude": 9.9933
+        }
+      ],
+      "topRight": [
+        {
+          "latitude": 53.55055,
+          "longitude": 9.994
+        }
+      ],
+      "bottomRight": [
+        {
+          "latitude": 53.55129,
+          "longitude": 9.9929
+        }
+      ],
+      "bottomLeft": [
+        {
+          "latitude": 53.55105,
+          "longitude": 9.9921
+        }
+      ],
+      "markers": [
+        {
+          "Lager_id": 2,
+          "Lager_name": "Maronen",
+          "longitude": 9,
+          "latitude": 6,
+          "iconSize": [
+            50,
+            50
+          ],
+          "popupContent": "<b>\"Maronen\"</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45,
+          "images": [
+            "assets/rathaus-1.webp",
+            "assets/rathaus-2.jpg",
+            "assets/rathaus.jpg"
+          ]
+        },
+        {
+          "Lager_id": 3,
+          "Lager_name": "Glasbläser",
+          "longitude": 4,
+          "latitude": 6,
+          "iconSize": [
+            50,
+            50
+          ],
+          "popupContent": "<b>\"Glasbläser\"</b></br><b>id:3</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 4,
+          "Lager_name": "Schmied",
+          "longitude": 11,
+          "latitude": 3,
+          "iconSize": [
+            100,
+            200
+          ],
+          "popupContent": "<b>\"Schmied\"</b></br><b>id:4</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 5,
+          "Lager_name": "Puppenmacherin",
+          "longitude": 5,
+          "latitude": 7,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Puppenmacherin\"</b></br><b>id:5</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 6,
+          "Lager_name": "Wind Art",
+          "longitude": 18,
+          "latitude": 7,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Wind Art\"</b></br><b>id:6</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 7,
+          "Lager_name": "Flockenhaus",
+          "longitude": 5,
+          "latitude": 6,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Flockenhaus\"</b></br><b>id:7</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 8,
+          "Lager_name": "Belgische Pralinen",
+          "longitude": 17,
+          "latitude": 10,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Belgische Pralinen\"</b></br><b>id:8</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 10,
+          "Lager_name": "Lederwaren",
+          "longitude": 15,
+          "latitude": 3,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Lederwaren\"</b></br><b>id:10</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 11,
+          "Lager_name": "Hanse-Spieß",
+          "longitude": 2,
+          "latitude": 10,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Hanse-Spieß\"</b></br><b>id:11</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gastronomie",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 12,
+          "Lager_name": "Perlkönig",
+          "longitude": 7,
+          "latitude": 1,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Perlkönig\"</b></br><b>id:12</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 13,
+          "Lager_name": "Tee & Gewürze",
+          "longitude": 16,
+          "latitude": 1,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Tee & Gewürze\"</b></br><b>id:13</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 14,
+          "Lager_name": "Almgourmet",
+          "longitude": 6,
+          "latitude": 12,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Almgourmet\"</b></br><b>id:14</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 15,
+          "Lager_name": "Lambertz-Gebäck",
+          "longitude": 15,
+          "latitude": 12,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Lambertz-Gebäck\"</b></br><b>id:15</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 16,
+          "Lager_name": "Lángos",
+          "longitude": 1,
+          "latitude": 6,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Lángos\"</b></br><b>id:16</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gastronomie",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 17,
+          "Lager_name": "Schmalzbäckerei",
+          "longitude": 19,
+          "latitude": 9,
+          "iconSize": [
+            100,
+            200
+          ],
+          "popupContent": "<b>\"Schmalzbäckerei\"</b></br><b>id:17</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 18,
+          "Lager_name": "Trockenfrüchte",
+          "longitude": 17,
+          "latitude": 1,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Trockenfrüchte\"</b></br><b>id:18</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 19,
+          "Lager_name": "Kerzenhaus",
+          "longitude": 14,
+          "latitude": 6,
+          "iconSize": [
+            200,
+            100
+          ],
+          "popupContent": "<b>\"Kerzenhaus\"</b></br><b>id:19</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 20,
+          "Lager_name": "Schoko-Früchte",
+          "longitude": 15,
+          "latitude": 10,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Schoko-Früchte\"</b></br><b>id:20</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 21,
+          "Lager_name": "quasiolka",
+          "longitude": 8,
+          "latitude": 3,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"quasiolka\"</b></br><b>id:21</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 22,
+          "Lager_name": "Rêve de Fromage",
+          "longitude": 5,
+          "latitude": 10,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Rêve de Fromage\"</b></br><b>id:22</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 23,
+          "Lager_name": "Nusskönigin",
+          "longitude": 18,
+          "latitude": 10,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Nusskönigin\"</b></br><b>id:23</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 24,
+          "Lager_name": "Senfmühle",
+          "longitude": 4,
+          "latitude": 10,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Senfmühle\"</b></br><b>id:24</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 25,
+          "Lager_name": "Bonbonmacher",
+          "longitude": 16,
+          "latitude": 10,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Bonbonmacher\"</b></br><b>id:25</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 26,
+          "Lager_name": "Pfaffenglück",
+          "longitude": 6,
+          "latitude": 4,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Pfaffenglück\"</b></br><b>id:26</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gastronomie",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 27,
+          "Lager_name": "Appenzeller Käsehütte",
+          "longitude": 8,
+          "latitude": 12,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Appenzeller Käsehütte\"</b></br><b>id:27</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gastronomie",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 28,
+          "Lager_name": "Lavendelhaus",
+          "longitude": 18,
+          "latitude": 1,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Lavendelhaus\"</b></br><b>id:28</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 29,
+          "Lager_name": "Hamburger Fotokunst",
+          "longitude": 16,
+          "latitude": 3,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Hamburger Fotokunst\"</b></br><b>id:29</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 30,
+          "Lager_name": "Petit Marche",
+          "longitude": 5,
+          "latitude": 12,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Petit Marche\"</b></br><b>id:30</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 31,
+          "Lager_name": "Kartoffelpuffer & Co.",
+          "longitude": 14,
+          "latitude": 12,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Kartoffelpuffer & Co.\"</b></br><b>id:31</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 32,
+          "Lager_name": "Elbschlösschen",
+          "longitude": 4,
+          "latitude": 2,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Elbschlösschen\"</b></br><b>id:32</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gluhwein",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 33,
+          "Lager_name": "La Crèperie",
+          "longitude": 6,
+          "latitude": 10,
+          "iconSize": [
+            100,
+            200
+          ],
+          "popupContent": "<b>\"La Crèperie\"</b></br><b>id:33</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gastronomie",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 34,
+          "Lager_name": "Stollen",
+          "longitude": 3,
+          "latitude": 4,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Stollen\"</b></br><b>id:34</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 35,
+          "Lager_name": "Dresdner Handbrot",
+          "longitude": 14,
+          "latitude": 9,
+          "iconSize": [
+            100,
+            200
+          ],
+          "popupContent": "<b>\"Dresdner Handbrot\"</b></br><b>id:35</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gastronomie",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 36,
+          "Lager_name": "Holzbildhauer",
+          "longitude": 19,
+          "latitude": 1,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Holzbildhauer\"</b></br><b>id:36</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 37,
+          "Lager_name": "Flammlachs",
+          "longitude": 19,
+          "latitude": 3,
+          "iconSize": [
+            100,
+            200
+          ],
+          "popupContent": "<b>\"Flammlachs\"</b></br><b>id:37</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gastronomie",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 38,
+          "Lager_name": "Rentierhütte",
+          "longitude": 10,
+          "latitude": 12,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Rentierhütte\"</b></br><b>id:38</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gluhwein",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 39,
+          "Lager_name": "Filz & Wolle",
+          "longitude": 17,
+          "latitude": 6,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Filz & Wolle\"</b></br><b>id:39</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 40,
+          "Lager_name": "Feuerzangenbowle",
+          "longitude": 11,
+          "latitude": 7,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Feuerzangenbowle\"</b></br><b>id:40</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gluhwein",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 41,
+          "Lager_name": "Schlüters Alpenwelt",
+          "longitude": 11,
+          "latitude": 9,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Schlüters Alpenwelt\"</b></br><b>id:41</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gastronomie",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 42,
+          "Lager_name": "Erzgebirge",
+          "longitude": 16,
+          "latitude": 9,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Erzgebirge\"</b></br><b>id:42</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 44,
+          "Lager_name": "Geschenkdose",
+          "longitude": 10,
+          "latitude": 1,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Geschenkdose\"</b></br><b>id:44</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 45,
+          "Lager_name": "Soapstories",
+          "longitude": 8,
+          "latitude": 4,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Soapstories\"</b></br><b>id:45</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 46,
+          "Lager_name": "Lichthäuser",
+          "longitude": 10,
+          "latitude": 4,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Lichthäuser\"</b></br><b>id:46</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 47,
+          "Lager_name": "Käthe Wohlfahrt",
+          "longitude": 21,
+          "latitude": 6,
+          "iconSize": [
+            100,
+            300
+          ],
+          "popupContent": "<b>\"Käthe Wohlfahrt\"</b></br><b>id:47</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 48,
+          "Lager_name": "Steinkauz",
+          "longitude": 8,
+          "latitude": 1,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Steinkauz\"</b></br><b>id:48</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 49,
+          "Lager_name": "Original Thüringer",
+          "longitude": 20,
+          "latitude": 12,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Original Thüringer\"</b></br><b>id:49</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gastronomie",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 50,
+          "Lager_name": "Bürsten & Besen",
+          "longitude": 18,
+          "latitude": 4,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Bürsten & Besen\"</b></br><b>id:50</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 51,
+          "Lager_name": "Münzpräger",
+          "longitude": 6,
+          "latitude": 1,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Münzpräger\"</b></br><b>id:51</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 52,
+          "Lager_name": "Krippenschnitzerei",
+          "longitude": 18,
+          "latitude": 6,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Krippenschnitzerei\"</b></br><b>id:52</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 53,
+          "Lager_name": "Goldschmiede",
+          "longitude": 9,
+          "latitude": 1,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Goldschmiede\"</b></br><b>id:53</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 54,
+          "Lager_name": "Schreibstube",
+          "longitude": 18,
+          "latitude": 3,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Schreibstube\"</b></br><b>id:54</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 55,
+          "Lager_name": "Bienenhaus",
+          "longitude": 3,
+          "latitude": 12,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Bienenhaus\"</b></br><b>id:55</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 56,
+          "Lager_name": "Rentierfelle",
+          "longitude": 3,
+          "latitude": 6,
+          "iconSize": [
+            100,
+            200
+          ],
+          "popupContent": "<b>\"Rentierfelle\"</b></br><b>id:56</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 57,
+          "Lager_name": "Speicherhaus",
+          "longitude": 1,
+          "latitude": 12,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Speicherhaus\"</b></br><b>id:57</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gluhwein",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 58,
+          "Lager_name": "Anleger",
+          "longitude": 21,
+          "latitude": 4,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Anleger\"</b></br><b>id:58</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gluhwein",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 59,
+          "Lager_name": "Bratwurstgrill",
+          "longitude": 14,
+          "latitude": 3,
+          "iconSize": [
+            100,
+            200
+          ],
+          "popupContent": "<b>\"Bratwurstgrill\"</b></br><b>id:59</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "atractionType": "gastronomie",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 60,
+          "Lager_name": "Olivenholz-Handwerk",
+          "longitude": 19,
+          "latitude": 6,
+          "iconSize": [
+            100,
+            200
+          ],
+          "popupContent": "<b>\"Olivenholz-Handwerk\"</b></br><b>id:60</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 61,
+          "Lager_name": "Wahrsagen",
+          "longitude": 8,
+          "latitude": 6,
+          "iconSize": [
+            50,
+            50
+          ],
+          "popupContent": "<b>\"Wahrsagen\"</b></br><b>id:61</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 62,
+          "Lager_name": "Neptunsgeschmeide",
+          "longitude": 15,
+          "latitude": 4,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Neptunsgeschmeide\"</b></br><b>id:62</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 63,
+          "Lager_name": "Silberschmiede",
+          "longitude": 7,
+          "latitude": 3,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Silberschmiede\"</b></br><b>id:63</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 64,
+          "Lager_name": "Marzipan &",
+          "longitude": 18,
+          "latitude": 12,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Marzipan &\"</b></br><b>id:64</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 65,
+          "Lager_name": "Schneeweißchen &",
+          "longitude": 18,
+          "latitude": 9,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Schneeweißchen &\"</b></br><b>id:65</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 66,
+          "Lager_name": "Fischerhemden-Uwe",
+          "longitude": 15,
+          "latitude": 1,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Fischerhemden-Uwe\"</b></br><b>id:66</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 67,
+          "Lager_name": "Oldtimerkarussell",
+          "longitude": 8,
+          "latitude": 8,
+          "iconSize": [
+            200,
+            200
+          ],
+          "popupContent": "<b>\"Oldtimerkarussell\"</b></br><b>id:67</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 68,
+          "Lager_name": "Japanisches Teehaus",
+          "longitude": 17,
+          "latitude": 3,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Japanisches Teehaus\"</b></br><b>id:68</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 69,
+          "Lager_name": "Unicef",
+          "longitude": 13,
+          "latitude": 1,
+          "iconSize": [
+            50,
+            50
+          ],
+          "popupContent": "<b>\"Unicef\"</b></br><b>id:69</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 70,
+          "Lager_name": "My 3D Modell",
+          "longitude": 4,
+          "latitude": 9,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"My 3D Modell\"</b></br><b>id:70</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 71,
+          "Lager_name": "Druckerey",
+          "longitude": 17,
+          "latitude": 4,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Druckerey\"</b></br><b>id:71</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 72,
+          "Lager_name": "Ideenstube",
+          "longitude": 6,
+          "latitude": 6,
+          "iconSize": [
+            100,
+            200
+          ],
+          "popupContent": "<b>\"Ideenstube\"</b></br><b>id:72</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 73,
+          "Lager_name": "Wildwerk",
+          "longitude": 16,
+          "latitude": 4,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Wildwerk\"</b></br><b>id:73</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 74,
+          "Lager_name": "Spiel & Kunst",
+          "longitude": 4,
+          "latitude": 7,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Spiel & Kunst\"</b></br><b>id:74</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 75,
+          "Lager_name": "Hüte & Mützen",
+          "longitude": 2,
+          "latitude": 4,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Hüte & Mützen\"</b></br><b>id:75</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 76,
+          "Lager_name": "Villeroy & Boch",
+          "longitude": 17,
+          "latitude": 7,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Villeroy & Boch\"</b></br><b>id:76</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 77,
+          "Lager_name": "Holzspielzeug",
+          "longitude": 3,
+          "latitude": 10,
+          "iconSize": [
+            100,
+            200
+          ],
+          "popupContent": "<b>\"Holzspielzeug\"</b></br><b>id:77</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 78,
+          "Lager_name": "Perlsacktiere",
+          "longitude": 5,
+          "latitude": 9,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Perlsacktiere\"</b></br><b>id:78</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 79,
+          "Lager_name": "TSIPI LEV",
+          "longitude": 9,
+          "latitude": 3,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"TSIPI LEV\"</b></br><b>id:79</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        },
+        {
+          "Lager_id": 80,
+          "Lager_name": "Schlesische Spezialitäten",
+          "longitude": 7,
+          "latitude": 12,
+          "iconSize": [
+            100,
+            100
+          ],
+          "popupContent": "<b>\"Schlesische Spezialitäten\"</b></br><b>id:80</b>",
+          "iconUrl": "assets/map-marker-svgrepo-com.svg",
+          "rotationAngle": 45
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Spitalerstrasse",
+          "latitude":  53.551978,
+          "longitude": 10.002665,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Spitalerstrasse",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": " Jungfernstieg",
+          "latitude":  53.553291,
+          "longitude":  9.992923,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Jungfernstieg",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Weingarten 26",
+          "latitude":  53.549247,
+          "longitude":  9.963578,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Weingarten 26",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Santa Pauli",
+          "latitude":  53.549507,
+          "longitude": 9.962480,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Santa Pauli",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Sonnendeck St. Pauli",
+          "latitude":  53.545805,
+          "longitude": 9.964836,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Sonnendeck St. Pauli",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Rindermarkthalle",
+          "latitude":  53.556837,
+          "longitude":  9.967604,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Rindermarkthalle",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Fuhlsbuttler Strasse",
+          "latitude":  53.588279,
+          "longitude": 10.046325,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Fuhlsbuttler Strasse",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Osterstrasse",
+          "latitude":  53.575579,
+          "longitude": 9.954081,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Osterstraße",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Marche de Noel",
+          "latitude":  53.550906,
+          "longitude": 9.986251,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Marche de Noel",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Kiez Garden",
+          "latitude":  53.549613,
+          "longitude": 9.966682,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Kiez Garden",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "StadtParkZauber",
+          "latitude":  53.593917,
+          "longitude": 10.014310,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "StadtParkZauber",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Allendeplatz",
+          "latitude":  53.567593,
+          "longitude": 9.982709,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Allendeplatz",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Winter Pride",
+          "latitude":  53.557632,
+          "longitude": 10.011585,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Winter Pride",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Ueberseeboulevard",
+          "latitude":  53.540728,
+          "longitude": 9.998868,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Überseeboulevard",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Gaensemarkt",
+          "latitude":  53.555165,
+          "longitude": 9.988423,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Gänsemarkt",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Harburger \n Weihnachtsmarkt",
+          "latitude":  53.459692,
+          "longitude": 9.980071,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Harburger \n Weihnachtsmarkt",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Ottensen",
+          "latitude":  53.552033,
+          "longitude": 9.930386,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Ottensen",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Bergedorf",
+          "latitude":  53.489704,
+          "longitude": 10.212427,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Bergedorf",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Sankt Michaelis",
+          "latitude":  53.548872,
+          "longitude": 9.978999,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Sankt Michaelis",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
+    },
+    {
+      "markerBig": [
+        {
+          "Lager_id": "Hamm",
+          "latitude":  53.556268,
+          "longitude": 10.057329,
+          "iconSize": [
+            150,
+            150
+          ],
+          "popupContent": "Hamm",
+          "iconUrl": "assets/01-Parallelogramm.svg"
+        }
+      ]
     }
   ]
 }
